@@ -1,0 +1,272 @@
+.header__blueline_menu{
+	background-color: $lightblueBg;
+	padding: 12px 0;
+}
+
+.language{
+	p{
+		color: $blueFont;
+		font-weight: $regular;
+		font-size: 13px;
+		padding-top: 10px;
+	}
+}
+
+.currency{
+	p{
+		color: $blueFont;
+		font-weight: $regular;
+		font-size: 13px;
+		padding-top: 11px;
+		margin-right: 100px;
+	}
+}
+
+.box__language{
+	position: absolute;
+	left: 14%;
+
+	select{
+		color: $white;
+		background-color: $lightblueBg;
+		width: 75px;
+		padding: 10px 0;
+		border: none;
+		outline: none;
+		font-size: 13px;
+		-moz-appearance: button;
+		-webkit-appearance: button;
+		appearance: button;
+	}
+
+	&:before{
+		@extend %fa-icon;
+  		@extend .fas;
+		position: absolute;
+		content: fa-content($fa-var-angle-down);
+		color: $white;
+		font-size: 16px;
+		top: 0;
+		right: 0;
+		width: 25px;
+		height: 50px;
+		text-align: center;
+		line-height: 44px;
+		pointer-events: none;
+	}
+}
+
+.box__currency{
+	@extend .box__language;
+	left: 39%;
+
+	select{
+		width: 58px;
+		padding: 10px 0;
+	}
+
+	&:before{
+		width: 25px;
+	}
+}
+
+li.currency{
+	margin-left: 88px;
+}
+
+.menu__right{
+	a{
+		color: $white;
+		font-weight: $regular;
+		font-size: 13px;
+		text-decoration: none;
+	}
+	a:hover{
+		color: $blueFont;
+		text-decoration: none;
+		-webkit-transition-duration: 1s;
+	    -moz-transition-duration: 1s;
+	    -o-transition-duration: 1s;
+	    transition-duration: 1s;
+	}
+	li.menu__right_line{
+		border-left: 1px solid $white;
+		margin: 9px 16px 0 16px;
+		height: 9px;
+	}
+}
+
+.header__logo{
+	font-weight: $bold;
+	font-size: 36px;
+	color: $greyColor;
+	text-transform: $uppercase;
+	margin: 38px 0 42px 0;
+}
+
+.header__main_menu{
+	margin-top: 54px;
+	li{
+		padding-right: 32px;
+	}
+	a{
+		font-size: 14px;
+		font-weight: $bold;
+		color: $greyColor;
+		text-transform: $uppercase;
+		text-decoration: none;
+	}
+	a:hover{
+		color: $arrowColor;
+		text-decoration: none;
+		-webkit-transition-duration: 1s;
+	    -moz-transition-duration: 1s;
+	    -o-transition-duration: 1s;
+	    transition-duration: 1s;
+	}
+}
+
+.header__search{
+	width: 182px;
+	position: relative;
+	margin: 4px 12px 0 0;
+	input{
+		border: none;
+	}
+	input[type="text"]{
+		padding: 6px 0 6px 12px;
+	}
+}
+
+.header__search .search__input{
+	width: 100%;
+	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  	border: 1px solid $searchColor;
+  	font-size: 13px;
+  	color: $searchColor;
+  	font-weight: $regular;
+}
+
+.header__search .submit__button{
+	position: absolute;
+	top: 16%;
+	right: 1%;
+	width: 30px;
+	cursor: pointer;
+	background-color: $white;
+    opacity: 0.5;
+    outline: none;
+    border: none;
+    i{
+    	color: $greyColor;
+    	font-size: 15px;
+    }
+}
+
+.cart__icon_tags, .cart__icon_shopping{
+	position: relative;
+	width: 36px;
+	height: 36px;
+	background-color: $greenBg;
+	border-radius: 50%;
+	margin-left: 5px;
+	i{
+		position: absolute;
+		color: $white;
+		font-size: 16px;
+		text-align: center;
+		line-height: 36px;
+		left: 23%;
+	}
+}
+
+.header__cart_icons{
+	margin-top: 46px;
+}
+
+li.cart__sum_item{
+	padding-top: 7px;
+}
+
+.cart__sum{
+	padding: 0 9px 0 16px;
+}
+
+.header__image_block{
+	position: relative;
+	max-width: 1900px;
+	overflow: hidden;
+	margin: auto;
+}
+
+.header__img1{
+	background: url('../img/header-bg.png') no-repeat center top / cover;
+	height: 530px;
+}
+
+.header__img2{
+	background: url('../img/header-bg.png') no-repeat center top / cover;
+	height: 530px;
+	position: relative;
+	&::before{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: $darkblueBg;
+		opacity: .70;
+	}
+}
+
+.header__img3{
+	background: url('../img/header-bg.png') no-repeat center top / cover;
+	height: 530px;
+	position: relative;
+	&::before{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: $greenBg;
+		opacity: .70;
+	}
+}
+
+div.image__text_top{
+	position: absolute;
+	width: 282px;
+	height: 51px;
+	background-color: $arrowTextBg;
+	opacity: 0.75;
+	top: 40%;
+	left: 15%;
+	h1{
+		font-size: 30px;
+		text-transform: $uppercase;
+		color: $white;
+		font-weight: $light;
+		padding: 7px 0 0 12px;
+	}
+}
+
+div.image__text_below{
+	position: absolute;
+	width: 326px;
+	height: 51px;
+	background-color: $arrowTextBg;
+	opacity: 0.75;
+	top: 51%;
+	left: 15%;
+	p{
+		font-size: 28px;
+		text-transform: $uppercase;
+		color: $white;
+		font-weight: $bold;
+		padding: 4px 0 0 12px;
+	}
+}

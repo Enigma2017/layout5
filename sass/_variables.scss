@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+$fontSans: 'Open Sans', sans-serif;
+$light: 300;
+$regular: 400;
+$semibold: 600;
+$bold: 700;
+$lightBg: #eff1f0;
+$lightblueBg: #4cb1ca;
+$greenBg: #7db122;
+$middleblueBg: #39a0b9;
+$darkblueBg: #0b4b5a;
+$greyColor: #656565;
+$blueFont: #bef2ff;
+$middleblueFont: #94def0;
+$white: #ffffff;
+$arrowColor: #cdcdcd;
+$searchColor: #b7b7b7;
+$lightblueFont: #cfe4e9;
+$arrowTextBg: #4b4b45;
+$uppercase: uppercase;
+
+body{
+	box-sizing: border-box;
+	font-family: $fontSans;
+	position: relative;
+	min-width: 320px;
+	margin: auto !important;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+	padding: 0;
+	position: relative;
+}
+
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, div, section, button, span, p, a{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sun-glasses shop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="header__blueline_menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-10">
+						<div class="blueline__menu_left">
+							<ul class="d-xl-flex d-lg-flex d-md-flex d-sm-flex d-block">
+								<li class="d-flex language">
+									<p>Language:</p>
+									<div class="box__language">
+										<select autofocus>
+											<option value="english">English</option>
+											<option value="deutsch">Deutsch</option>
+											<option value="español">Español</option>
+										</select>
+									</div>
+								</li>
+								<li class="d-flex currency">
+									<p>Currency:</p>
+									<div class="box__currency">
+										<select autofocus>
+											<option value="usd">USD</option>
+											<option value="euro">EURO</option>
+											<option value="gbp">GBP</option>
+										</select>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-4 col-sm-2 col-2 d-flex justify-content-end">
+						<nav class="navbar navbar-expand-lg">
+							<button class="navbar-toggler menu-button" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+							    <span class="navbar-toggler-icon menu-click">Menu</span>
+							 </button>
+							 <div class="blueline__menu_right collapse navbar-collapse" id="collapsibleNavbar">
+							 	<ul class="menu__right navbar-nav">
+									<li class="nav-item">
+										<a href="#">Account</a>
+									</li>
+									<li class="menu__right_line"></li>
+									<li class="nav-item">
+										<a href="#">Wishlist</a>
+									</li>
+									<li class="menu__right_line"></li>
+									<li class="nav-item">
+										<a href="#">Checkout</a>
+									</li>
+									<li class="menu__right_line"></li>
+									<li class="nav-item">
+										<a href="#">Log In</a>
+									</li>
+									<li class="menu__right_line"></li>
+									<li class="nav-item">
+										<a href="#">Sign Up</a>
+									</li>
+								</ul>
+							 </div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+					<div class="header__logo">
+						Leo Shop
+					</div>
+				</div>
+				<div class="col-xl-5 col-lg-4 col-md-6 col-sm-12">
+					<nav>
+						<ul class="d-flex header__main_menu">
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#">Women</a>
+							</li>
+							<li>
+								<a href="#">Men</a>
+							</li>
+							<li>
+								<a href="#">Other</a>
+							</li>
+							<li>
+								<a href="#">Purchase</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
+					<ul class="d-flex justify-content-lg-end header__cart_icons">
+						<li>
+							<form class="header__search" action="" method="post">
+								<input type="text" placeholder="Search.." name="search" class="search__input">
+			  					<button type="submit" name="button" value="" class="submit__button"><i class="fas fa-search"></i></button>
+							</form>
+						</li>
+						<li><div class="cart__icon_tags"><a href="#"><i class="fas fa-tags"></i></a></div></li>
+						<li><div class="cart__icon_shopping"><a href="#"><i class="fas fa-shopping-cart"></i></a></div></li>
+						<li class="cart__sum_item"><span class="cart__sum">Cart</span><span>(0)</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="demo" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				 	<div class="header__img1"></div>
+				 	<div class="image__text_top">
+						<h1>
+							Aluminum club
+						</h1>
+					</div>
+					<div class="image__text_below">
+						<p>
+							Experience ray-ban
+						</p>
+					</div>
+				</div>
+			    <div class="carousel-item">
+			    	<div class="header__img2"></div>
+			    	<div class="image__text_top">
+						<h1>
+							Aluminum club
+						</h1>
+					</div>
+					<div class="image__text_below">
+						<p>
+							Experience ray-ban
+						</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+			    	<div class="header__img3"></div>
+			    	<div class="image__text_top">
+						<h1>
+							Aluminum club
+						</h1>
+					</div>
+					<div class="image__text_below">
+						<p>
+							Experience ray-ban
+						</p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+	    		<span class="carousel-control-prev-icon"></span>
+	  		</a>
+	 		 <a class="carousel-control-next" href="#demo" data-slide="next">
+	    		<span class="carousel-control-next-icon"></span>
+	  		</a>
+		</div>
+	</header>
+	<section class="items" id="items">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-9 col-lg-7 col-md-12">
+					<div>
+						<h2 class="text-xl-left text-lg-left text-md-center text-sm-center text-center">Featured products</h2>
+						<div class="d-flex flex-row flex-wrap justify-content-xl-between justify-content-lg-between justify-content-md-around justify-content-sm-around justify-content-center">
+							<div class="item__card_promosion">
+								<div class="blue__ribbon">
+									<span>New</span>
+								</div>
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Lorem ipsum is simply.</span>
+										<p>$388.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card">
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Nullam vestibulum.</span>
+										<p>$90.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card_promosion">
+								<div class="green__ribbon">
+									<span>Sale</span>
+								</div>
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Donec at lorem suscipit.</span>
+										<p><del>$460</del> $300.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card">
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Curabitur pretium dui.</span>
+										<p>$180.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card_promosion">
+								<div class="blue__ribbon">
+									<span>New</span>
+								</div>
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Lorem ipsum is simply.</span>
+										<p>$278.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card">
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Sed tempus tellus.</span>
+										<p>$378.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card_promosion">
+								<div class="blue__ribbon">
+									<span>New</span>
+								</div>
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Lorem ipsum is simply.</span>
+										<p>$500.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card_promosion ">
+								<div class="green__ribbon">
+									<span>Sale</span>
+								</div>
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Etiam egestas velit.</span>
+										<p><del>$460</del> $200.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card_promosion">
+								<div class="blue__ribbon">
+									<span>New</span>
+								</div>
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Mauris viverra magna.</span>
+										<p>$370.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<h2 class="text-xl-left text-lg-left text-md-center text-sm-center text-center">Staff pick</h2>
+						<div class="d-flex flex-row flex-wrap justify-content-xl-between justify-content-lg-between justify-content-md-around justify-content-sm-around justify-content-center">
+							<div class="item__card_promosion">
+								<div class="blue__ribbon">
+									<span>New</span>
+								</div>
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Lorem ipsum is simply.</span>
+										<p>$378.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card">
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Mauris viverra magna.</span>
+										<p>$278.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card_promosion">
+								<div class="blue__ribbon">
+									<span>New</span>
+								</div>
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Curabitur pretium dui.</span>
+										<p>$188.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<h2 class="text-xl-left text-lg-left text-md-center text-sm-center text-center">New products</h2>
+						<div class="d-flex flex-row flex-wrap justify-content-xl-between justify-content-lg-between justify-content-md-around justify-content-sm-around justify-content-center">
+							<div class="item__card_promosion">
+								<div class="blue__ribbon">
+									<span>New</span>
+								</div>
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Sed tempus tellus.</span>
+										<p>$90.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card_promosion">
+								<div class="blue__ribbon">
+									<span>New</span>
+								</div>
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Nulla accumsan lect.</span>
+										<p>$60.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="item__card_promosion">
+								<div class="blue__ribbon">
+									<span>New</span>
+								</div>
+								<div class="item__img" id="item__img">
+								</div>
+								<div class="d-flex item__order">
+									<div class="item__basket_text">
+										<span>Lorem ipsum is simply.</span>
+										<p>$378.00</p>
+									</div>
+									<div class="item__basket_icon">
+										<a href="#"><i class="fas fa-shopping-basket"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-5 col-md-12">
+					<div class="item__block_promosion d-flex flex-xl-column flex-lg-column flex-md-row flex-wrap justify-content-md-around justify-content-sm-around justify-content-center">
+						<div class="block__promotion">
+							<h2>Featured <br> glass</h2>
+							<div class="slide__container">
+								<div class="mySlides fade">
+								    <img src="img/featured.jpg" alt="1" style="width: 100%; height: 278px;" class="img__1">
+								    <a class="mySlide__button" href="#">Check It Out</a>
+								</div>
+								<div class="mySlides fade">
+								    <img src="img/feat.jpg" alt="2" style="width: 100%; height: 278px;" class="img__2">
+								    <a class="mySlide__button" href="#">Check It Out</a>
+								</div>
+								<div class="mySlides fade">
+								    <img src="img/feature.jpg" alt="3" style="width: 100%; height: 278px;" class="img__3">
+								    <a class="mySlide__button" href="#">Check It Out</a>
+								</div>
+							</div>
+							<!-- The dots/circles -->
+							<div class="dot__line">
+							  	<span class="dot" onclick="currentSlide(1)"></span>
+							  	<span class="dot" onclick="currentSlide(2)"></span>
+							  	<span class="dot" onclick="currentSlide(3)"></span>
+							</div>
+						</div>
+						<div class="block__subscribe_promotion">
+							<h2>Newsletters <br> signup</h2>
+							<p>Lorem ipsum dolor sit amen, dolor imun ra adlip</p>
+							<div class="grey__short_line"></div>
+							<form class="subscribe__promotion d-flex flex-column align-items-center" action="" method="post">
+								<input type="email" name="email">
+			  					<button type="submit" name="button">Subscribe</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="footer__block_order">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+						<div class="d-flex footer__order_info">
+							<div class="order__circle_icon"><i class="fas fa-truck"></i></div>
+							<p>
+								Free shipping on orders over $100
+							</p>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+						<div class="d-flex footer__order_phone">
+							<div class="order__circle_icon"><i class="fas fa-phone"></i></div>
+							<p>
+								Call us! Toll free- 409-8888-0099
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__block_contacts">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+						<div class="footer__block_first">
+							<h3>Facebook</h3>
+							<p>20000 Members</p>
+							<a href="#" class="facebook__like"><i class="far fa-thumbs-up"></i>Like</a>
+							<div class="first__block_accounts d-flex flex-wrap justify-content-md-between">
+								<a href="#"><img src="img/face1.png" alt="1"></a>
+								<a href="#"><img src="img/face2.png" alt="2"></a>
+								<a href="#"><img src="img/face3.png" alt="3"></a>
+								<a href="#"><img src="img/face4.png" alt="4"></a>
+								<a href="#"><img src="img/face5.png" alt="5"></a>
+								<a href="#"><img src="img/face6.png" alt="6"></a>
+								<a href="#"><img src="img/face7.png" alt="7"></a>
+								<a href="#"><img src="img/face8.png" alt="8"></a>
+							</div>
+							<p>facebook Social plugin</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-5 col-6">
+						<h3 class="footer__second_title">From twitter</h3>
+						<div class="d-flex twitter__block">
+							<div class="twitter__icon"><i class="fab fa-twitter"></i></div>
+							<div class="twitter__text">
+								<span class="twitter__white_text">Lorem Ipsum is simply dummy text of the printing and </span><span class="twitter__blue_text">typesetting industry. Lorem Ipsum </span><span class="twitter__white_text">has been the industry's standard</span>
+							</div>
+						</div>
+						<div class="d-flex">
+							<div class="twitter__icon"><i class="fab fa-twitter"></i></div>
+							<div class="twitter__text">
+								<span class="twitter__white_text">Lorem Ipsum is simply dummy text of the printing and </span><span class="twitter__blue_text">typesetting industry. Lorem Ipsum </span><span class="twitter__white_text">has been the</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+						<h3 class="footer__third_title">Information</h3>
+						<ul class="footer__contacts_link">
+							<li>
+								<a href="#">Sed ultrices purus non.</a>
+							</li>
+							<li>
+								<a href="#">sodales sodales.</a>
+							</li>
+							<li>
+								<a href="#">Curabitur pretium dui vitae.</a>
+							</li>
+							<li>
+								<a href="#">Donec gravida mi in nisl</a>
+							</li>
+							<li>
+								<a href="#">faucibus leo condimentum.</a>
+							</li>
+							<li>
+								<a href="#">Donec et lorem suscipit.</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-5 col-6">
+						<h3 class="footer__fourth_title">Contact us</h3>
+						<ul class="footer__contacts_text">
+							<li>Leo Store</li>
+							<li>Leopards media</li>
+							<li>KVM Rpad, 4590GH</li>
+							<li>+1 489-8888-0099</li>
+							<li>mail@email.com</li>
+						</ul>
+						<ul class="d-flex footer__contacts_icons">
+							<li>
+								<a href="#"><i class="fab fa-google-plus-g"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-rss"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__line_below">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-3">
+						<div class="footer__line_left">
+							<p><i class="far fa-copyright"></i> Copyright 2013 Css Author. All rights reserved.</p>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-9">
+						<ul class="footer__below_nav d-flex justify-content-end">
+							<li>
+								<a href="#">About us</a>
+							</li>
+							<li class="right_line"></li>
+							<li>
+								<a href="#">Delivery&returns</a>
+							</li>
+							<li class="right_line"></li>
+							<li>
+								<a href="#">Terms&conditions</a>
+							</li>
+							<li class="right_line"></li>
+							<li>
+								<a href="#">Contact us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+	<script src="js/feature-slide.js"></script>
+</body>
+</html>
